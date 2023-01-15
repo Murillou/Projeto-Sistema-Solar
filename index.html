@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sistema Solar</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="const.js" defer></script>
+    <script src='script.js' defer></script>
+</head>
+<body>
+    <img id="gif" src="imgs/estrelas.gif" class="bg-gif">
+
+    <div><h1>Calcular o peso de um objeto em um planeta</h1></div>
+
+    <div class="form">
+    <input placeholder="Digite a massa em KG" type="text" id="text">
+        <select id="select">
+            <option>---selecione o planeta---</option>
+            <option id="a" value="mercurio">Mercúrio</option>
+            <option id="b" value="terra">Terra</option>
+            <option id="c" value="jupiter">Júpiter</option>
+            <option id="d" value="plutao">Plutão</option>
+            <option id="e" value="saturno">Saturno</option>
+            <option id="f" value="urano">Urano</option>
+            <option id="g" value="netuno">Netuno</option>
+            <option id="h" value="venus">Vênus</option>
+            <option id="i" value="marte">Marte</option>
+        </select>
+        <button id="button">Calcular Peso</button>
+    </div>
+    <img id="imgMerc" class="esconder" src="imgs/mercurio.png">
+    <img id="imgTer" class="esconder" src="imgs/terra.png">
+    <img id="imgJup" class="esconder" src="imgs/jupiter.png">
+    <img id="imgPlut" class="esconder" src="imgs/plutao.png">
+    <img id="imgSat" class="esconder" src="imgs/saturno.png">
+    <img id="imgUra" class="esconder" src="imgs/Uranus.png">
+    <img id="imgNet" class="esconder" src="imgs/netuno.png"> 
+    <img id="imgVen" class="esconder" src="imgs/venus.png">
+    <img id="imgMar" class="esconder" src="imgs/marte.png">
+
+   
+    <div id="resultado" class="hidden">
+        <div id="title" class="hidden">
+        </div>
+    </div>
+
+</body>
+</html>
